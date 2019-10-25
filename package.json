@@ -6,6 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,13 +20,14 @@
   "bugs": {
     "url": "https://github.com/n-psk/n-psk.in.th/issues"
   },
-  "homepage": "https://github.com/n-psk/n-psk.in.th#readme",
+  "homepage": "https://n-psk.github.io/n-psk.in.th/",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react-scripts": "^3.2.0"
   },
   "browserslist": {
