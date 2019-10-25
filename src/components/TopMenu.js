@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 
 class TopMenu extends React.Component {
+    reLoad() {
+        setTimeout(function () {
+            window.location.reload()
+        }, 2000)
+
+    }
     render() {
         return (
             <div className="top-menu hover-masks">
@@ -10,7 +16,7 @@ class TopMenu extends React.Component {
                     <div className="menu-topmenu-container">
                         <ul className="menu">
                             <li className="menu-item menu-item-has-children current-menu-item">
-                                <Link to="/">Home</Link>
+                                <Link to="/" onCkick={this.reLoad.bind(this)}>Home</Link>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item current-menu-item"><Link to="/">Home Default</Link></li>
                                     <li className="menu-item"><Link to="/index_creative">Home Creative</Link></li>
@@ -22,7 +28,7 @@ class TopMenu extends React.Component {
                                 </ul> */}
                             </li>
                             <li className="menu-item menu-item-has-children">
-                                <Link to="/resume">Resume</Link>
+                                <Link to="/resume" onCkick={this.reLoad.bind(this)}>Resume</Link>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item"><Link to="/resume">Resume Default</Link></li>
                                     <li className="menu-item"><Link to="/resume_image">Resume Image</Link></li>
