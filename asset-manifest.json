@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/n-psk.in.th/static/js/main.b1963abd.chunk.js",
-    "main.js.map": "/n-psk.in.th/static/js/main.b1963abd.chunk.js.map",
+    "main.js": "/n-psk.in.th/static/js/main.88c9a72b.chunk.js",
+    "main.js.map": "/n-psk.in.th/static/js/main.88c9a72b.chunk.js.map",
     "runtime-main.js": "/n-psk.in.th/static/js/runtime-main.b84684aa.js",
     "runtime-main.js.map": "/n-psk.in.th/static/js/runtime-main.b84684aa.js.map",
     "static/js/2.0632ad17.chunk.js": "/n-psk.in.th/static/js/2.0632ad17.chunk.js",
     "static/js/2.0632ad17.chunk.js.map": "/n-psk.in.th/static/js/2.0632ad17.chunk.js.map",
     "index.html": "/n-psk.in.th/index.html",
-    "precache-manifest.a73a58ddf0e7ddde5360b746941604c5.js": "/n-psk.in.th/precache-manifest.a73a58ddf0e7ddde5360b746941604c5.js",
+    "precache-manifest.f5dd676914b8b535d071dbf6a3a56f9a.js": "/n-psk.in.th/precache-manifest.f5dd676914b8b535d071dbf6a3a56f9a.js",
     "service-worker.js": "/n-psk.in.th/service-worker.js",
     "static/media/img.png": "/n-psk.in.th/static/media/img.c2e5695b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b84684aa.js",
     "static/js/2.0632ad17.chunk.js",
-    "static/js/main.b1963abd.chunk.js"
+    "static/js/main.88c9a72b.chunk.js"
   ]
 }
