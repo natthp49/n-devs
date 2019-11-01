@@ -11,14 +11,14 @@ class Footer extends React.Component {
                 <div className="soc-box">
                     <div className="follow-label">Follow Me</div>
                     <div className="soc">
-                        <a target="_blank" href="https://www.pinterest.com/">
-                            <span className="icon fab fa-pinterest"></span>
+                        <a target="_blank" href="https://www.facebook.com/n.psk26">
+                            <span className="icon fab fa-facebook"></span>
                         </a>
-                        <a target="_blank" href="https://www.instagram.com/">
-                            <span className="icon fab fa-instagram"></span>
+                        <a target="_blank" href="https://github.com/n-psk">
+                            <span className="icon fab fa-github"></span>
                         </a>
-                        <a target="_blank" href="https://dribbble.com/">
-                            <span className="icon fab fa-dribbble"></span>
+                        <a target="_blank" href="https://www.linkedin.com/in/npsk26/">
+                            <span className="icon fab fa-linkedin"></span>
                         </a>
                     </div>
                 </div>

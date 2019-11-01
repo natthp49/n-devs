@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 class TopMenu extends React.Component {
     reLoad() {
-        setTimeout(function () {
-            window.location.reload()
-        }, 2000)
+        // setTimeout(function () {
+        //     window.location.reload()
+        // }, 5000)
 
     }
     render() {
@@ -16,7 +16,7 @@ class TopMenu extends React.Component {
                     <div className="menu-topmenu-container">
                         <ul className="menu">
                             <li className="menu-item menu-item-has-children current-menu-item">
-                                <Link to="/" onCkick={this.reLoad.bind(this)}>Home</Link>
+                                <Link to="/">Home</Link>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item current-menu-item"><Link to="/">Home Default</Link></li>
                                     <li className="menu-item"><Link to="/index_creative">Home Creative</Link></li>
@@ -28,32 +28,32 @@ class TopMenu extends React.Component {
                                 </ul> */}
                             </li>
                             <li className="menu-item menu-item-has-children">
-                                <Link to="/resume" onCkick={this.reLoad.bind(this)}>Resume</Link>
+                                <Link to="/resume" >Resume</Link>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item"><Link to="/resume">Resume Default</Link></li>
                                     <li className="menu-item"><Link to="/resume_image">Resume Image</Link></li>
                                     <li className="menu-item"><Link to="/resume_creative">Resume Creative</Link></li>
                                 </ul> */}
                             </li>
-                            {/* <li className="menu-item menu-item-has-children">
+                            <li className="menu-item menu-item-has-children">
                                 <Link to="/works">Works</Link>
-                                <ul className="sub-menu">
+                                {/* <ul className="sub-menu">
                                     <li className="menu-item"><Link to="/works">Works Default</Link></li>
                                     <li className="menu-item"><Link to="/works_creative">Works Creative</Link></li>
                                     <li className="menu-item"><Link to="/work_single">Work Single</Link></li>
                                     <li className="menu-item"><Link to="/work_single_image">Work Single Image</Link></li>
                                     <li className="menu-item"><Link to="/work_single_creative">Work Single Creative</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li className="menu-item menu-item-has-children">
                                 <Link to="/contacts">Contact</Link>
-                                <ul className="sub-menu">
+                                {/* <ul className="sub-menu">
                                     <li className="menu-item"><Link to="/contacts">Contact Default</Link></li>
                                     <li className="menu-item"><Link to="/contacts_map">Contact Map</Link></li>
                                     <li className="menu-item"><Link to="/contacts_image">Contact Image</Link></li>
                                     <li className="menu-item"><Link to="/contacts_creative">Contact Creative</Link></li>
-                                </ul>
-                            </li> */}
+                                </ul> */}
+                            </li>
                         </ul>
                     </div>
                 </div>

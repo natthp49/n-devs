@@ -13,10 +13,19 @@ import StartedContent from '../../components/StartedContent';
 import Footer from '../../components/Footer';
 import Lines from '../../components/Lines';
 import img from '../../images/img.png';
+import {createElement} from '../../components/createElement';
+// import '../../js/demo-bar';
+// import '../../js/min.scripts';
+// import '../../js/scripts';
+// import '../../js/index';
 
 
 
 export default class Home extends React.Component {
+    componentDidMount() {
+        createElement('../../js/min.scripts.js');
+        createElement('../../js/demo-bar.js');
+    }
     render() {
         return (
             <React.Fragment>
@@ -38,7 +47,7 @@ export default class Home extends React.Component {
                                 page="home"
                                 text_about={{
                                     intro: "Hello, I’m",
-                                    name: "Nutthapat Piasangka",
+                                    name: "P Devs",
                                     skill: [", Front-end Developer and", "Back-end Developer Based in San Francisco."]
                                 }}
                                 text_work={[

@@ -23,10 +23,16 @@ import SectionInterests from '../../components/SectionInterests';
 import SectionTeam from '../../components/SectionTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import SectionClients from '../../components/SectionClients';
-
+import { createElement } from '../../components/createElement';
 
 
 export default class Resume extends React.Component {
+
+    componentDidMount() {
+        createElement('../../js/min.scripts.js');
+        createElement('../../js/demo-bar.js');
+    }
+
     render() {
         return (
             <React.Fragment>
