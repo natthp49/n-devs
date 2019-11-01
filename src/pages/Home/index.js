@@ -14,7 +14,7 @@ import Footer from '../../components/Footer';
 import Lines from '../../components/Lines';
 import img from '../../images/img.png';
 import {createElement} from '../../components/createElement';
-// import '../../js/demo-bar';
+// import  '../../js/demo-bar';
 // import '../../js/min.scripts';
 // import '../../js/scripts';
 // import '../../js/index';
@@ -23,8 +23,8 @@ import {createElement} from '../../components/createElement';
 
 export default class Home extends React.Component {
     componentDidMount() {
-        createElement('../../js/min.scripts.js');
-        createElement('../../js/demo-bar.js');
+        createElement('./js/min.scripts.js');
+        createElement('./js/demo-bar.js');
     }
     render() {
         return (
